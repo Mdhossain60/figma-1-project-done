@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1050px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ a{
+    text-decoration: none;
+ }
+ ul,ol{
+    list-style: none;
+ }
+  .alain-end{
+    align-items: flex-end;
+  }
+  .alain-center{
+    align-items: center;
+  }
+
+    :root{
+      --maincolor:#F8991C;
+    }
+ body{
+    font-family: 'Open Sans', sans-serif;;
+ } 
+
+   .heading h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--maincolor);
+   }
+ 
+   .heading h2{
+    font-weight: 600;
+   font-size: 28px;
+   line-height: 38px;
+   color: #000000;
+
+   }
+   
+   .button{
+    background:var(--maincolor);
+    border-radius: 6px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+    padding: 12px 40px;
+    display: inline-block;
+    margin-top: 35px;
+   }
+
+
+
+   
+ /*COMMON CSS ENDS*/
+
+  /*NAV SECTION START HERE*/
+  nav .logo{
+    width: 30%;
+  }
+ 
+
+  nav .menu{
+    width: 70%;
+  }
+
+  nav .menu ul{
+    text-align: right;
+  } 
+  nav .menu ul li{
+    display: inline-block;
+  }
+
+  nav .menu ul li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    padding: 50px 30px;
+    display: block;
+  }
+ /*NAV SECTION START ENDS*/
+
+
+
+  /*BANNER SECTION START*/
+  #banner{
+     min-height: 664px;
+    position: relative;
+    background-color: #F8F8F8;
+  }
+  #banner .banner-img{
+    width: 40%;
+  }
+  #banner .banner-img img{
+    width: 100%;
+  }
+
+
+  #banner .banner-text{
+    width: 60%;
+  }
+   
+   #banner .banner_text h2{
+    font-weight: 400;
+   font-size: 28px;
+   line-height: 38px;
+   color: #000000;
+   }
+
+   #banner .banner_text h1{
+
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;    
+
+   }
+
+
+   #banner .banner_text p{
+
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;    
+
+   }
+
+   #banner .banner_text a{
+   
+   }
+
+   #banner .banner_text .socialContainer{
+    margin-top: 100px;
+    position: absolute;
+   }
+    #banner .banner_text .socialContainer p{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+    }
+
+    #banner .banner_text .socialContainer ul{
+      margin-left: 130px;
+    }
+
+    #banner .banner_text .socialContainer ul li{
+      display: inline-block;
+    }
+
+    #banner .banner_text .socialContainer ul li{
+      margin: 0 05px;
+    }
+
+    #banner .banner_text .socialContainer ul li a{
+      font-size: 24px;
+        color: #4267B2;
+    }
+    #banner .banner_text .socialContainer ul li .instagram{
+      font-size: 24px;
+      color: #3F729B;
+      
+    }
+
+    #banner .banner_text .socialContainer ul li .linkedin{
+      color: #0072B1;
+      font-size: 24px;
+    }
+   /*BANNER SECTION START*/
+
+
+   /*ABOUT ABOUT SECTION START*/
+   #about{
+    padding: 78px 0;
+   }
+
+
+    #about .about_image{
+      width: 40%;
+    }
+    #about .about_image img{
+      width: 100%;
+    }
+    #about .about_text{
+      width: 60%;
+      padding: 0 25px;
+    }
+
+    #about .about_text p{
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: justify;
+      margin: 40px 0;
+      color: #000000;
+    }
+
+   #about .about_text .button:last-child{
+    background-color: transparent;
+    border: 1px solid var(--maincolor);
+    color: #000000;
+    margin-left: 60px;
+   
+   }
+
+   #about .about_img img{
+   
+   margin-left: 42%;
+  padding-top: 50px;
+   }
+    /*ABOUT ABOUT SECTION ENDS*/
+ 
+
+   /*SKILL SECTION START*/
+   #skill{
+     padding: 54px 0;
+     background-color: #F8F8F8;
+   }
+
+    #skill .skill_card{
+      width:calc( 33.33% - 74px);
+      margin: 0 37px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    #skill .skill_card h3{
+      font-weight: 600;
+      font-size: 28px;
+      
+      line-height: 38px;
+      color: var(--maincolor);
+    }
+   
+    
+    #skill .skill_card p{
+         
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #000000;      
+    }
+   /*SKILL SECTION ENDS*/
+
+    /*EDUCATION SECTION START*/
+
+     #education{
+      padding: 135px 0;
+     }
+
+       #education .education_card{
+        width: calc(33.33% - 20px);
+        margin: 0 10px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 32px 10px;
+       }
+       #education .education_card .card1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+       }
+
+       #education .education_card .card_2{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+       }
+       #education .education_card .card_3{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+
+       }  
+       #education .education_card .card_3 a{
+        color: var(--maincolor);
+       }
+
+       #education .education_card .card_4{
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+
+       }
+       #education .education_card .card_4 a{
+        color: var(--maincolor);
+       }
+     /*EDUCATION SECTION ENDS*/
+
+
+     /*PORTFOLIO SECTION START*/
+       #portfolio{
+        padding: 44px 0;
+        background-color: #F8F8F8;
+       }
+
+   #portfolio .portfolio_card{
+    width: calc(25% - 2px);
+    margin: 0 1px;
+    margin-top: 40px;
+   }
+  
+   #portfolio .portfolio_card img:hover{
+    border: 1px solid var(--maincolor);
+
+   }
+   #portfolio p{
+   
+   color: rgba(196, 196, 196, 0.4);
+   } 
+   #portfolio .design{
+    color: #F8991C;
+   
+   }
+      /*PORTFOLIO SECTION ENDS*/
+
+      /*TESTMONIAL SECTION START*/
+      #testmonial{
+        padding: 92px 0;
+      } 
+   
+     #testmonial .testmonial_card{
+      width: calc(50% - 34px);
+      margin: 0 17px;
+      padding: 33px ;
+     margin-top: 45px;
+      background: #FFFFFF;
+      box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+      
+     }
+     #testmonial .testmonial_card .testmonial_img{
+      width: 20%;
+     }  
+     .testmonial_card .testmonial_img{
+      width: 100%;
+      display: block;
+     }
+
+     #testmonial .testmonial_card .testmonial_text{
+      width: 80%;
+       padding-left: 8px;
+     }
+     .testmonial_card .testmonial_text h3{
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 42px;
+      color: #000000;
+     } 
+     .testmonial_card .testmonial_text h4{
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+     }
+     .testmonial_card p{
+        font-weight: 400;
+       font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      margin-top: 20px;
+      display: block;
+      }
+       /*TESTMONIAL SECTION ENDS*/
+
+
+        /*BLOG SECTION START*/ 
+      #blog{
+        padding: 62px 0;
+        background-color: #F8F8F8;
+      }
+    
+     #blog .blog_card{
+      width: calc(33.33% - 22px);
+      margin: 0 11px;
+      margin-top: 45px;
+      background: #FFFFFF;
+    
+      box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+     } 
+
+     #blog .blog_card img{
+      width: 100%;
+     }
+
+     #blog .blog_card h3{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color:#000000; 
+        text-align: center;  
+        padding: 12px 0;     
+      }
+
+      #blog .blog_card p{
+        font-weight: 300;
+       font-size: 16px;
+      line-height: 24px;
+      word-spacing: 9px;
+      padding: 0 5px;
+      text-align: justify;
+ 
+      }
+
+      #blog .blog_card  a{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        text-align: center;
+        display: inline-block;
+        margin-left: 30%;
+        padding-top: 15px;
+      }
+        /*BLOG SECTION ENDS*/
+
+      
